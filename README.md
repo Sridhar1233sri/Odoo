@@ -1,50 +1,44 @@
-# 🌍 GlobeTrotter - Multi-City Travel Planning Platform
+# 🌍 GlobeTrotter
 
-**A comprehensive, full-stack travel planning application built for the Odoo Hackathon**
+**Multi-City Travel Planning Made Simple**
 
----
-
-## 📋 Problem Statement
-
-Planning multi-city trips is fragmented and manual. Travelers juggle multiple tools:
-- Google for destinations
-- Maps for routes  
-- Excel for budgets
-- Messaging apps for sharing
-
-**GlobeTrotter solves this** with a unified platform for designing, visualizing, budgeting, and sharing trips.
+> A full-stack web application for planning, budgeting, and managing multi-city trips.  
+> Built for the **Odoo Hackathon 2026**
 
 ---
 
-## ✨ Key Features
+## 🎯 Problem Statement
 
-### 🔐 User Authentication
-- Secure signup/login with JWT tokens
-- Password hashing with bcrypt
-- Protected routes and API endpoints
+Planning multi-city trips today is fragmented across multiple tools - Google for destinations, spreadsheets for budgets, notes for itineraries. Travelers waste time switching between apps and struggle to see the complete picture.
 
-### 🗺️ Trip Management
-- Create unlimited multi-city trips
-- Set start/end dates
-- Add descriptions and metadata
+**GlobeTrotter provides a unified platform** where users can plan entire trips, track budgets, manage itineraries, and visualize their journey - all in one place.
 
-### 📍 Itinerary Builder
-- Add multiple cities (stops) to each trip
-- Arrange stops in order
-- Set dates for each city
-- Visual timeline view
+---
 
-### 💰 Budget Tracking
-- Add activities with costs to each city
-- Automatic budget calculation per city
-- Total trip cost breakdown
-- Category-wise expense tracking (Food, Transport, Accommodation, Activities)
+## ✨ Features
 
-### 📱 Modern UI/UX
-- Responsive design (mobile + desktop)
-- Clean, intuitive interface
-- Real-time updates
-- Form validation
+### � Secure Authentication
+- JWT-based user authentication
+- Encrypted password storage
+- Protected user data and trips
+
+### 🗺️ Trip Planning
+- Create and manage multiple trips
+- Add cities/destinations as stops
+- Set dates for each location
+- Organize stops in chronological order
+
+### 💰 Budget Management
+- Add activities with costs per city
+- Automatic budget calculations
+- Category-based expense tracking
+- Real-time cost summaries
+
+### 📱 Responsive Design
+- Works on desktop, tablet, and mobile
+- Clean, modern interface
+- Intuitive navigation
+- Fast and performant
 
 ---
 
@@ -307,19 +301,26 @@ Your app is deployed and running on:
 
 ---
 
-## 👥 Team Collaboration (Git Workflow)
+## 👥 Team
 
-```
-main → stable production
-dev → integration branch
-feature/frontend-* → frontend features
-feature/backend-* → backend features
-```
+**Team GlobeTrotter** - 4 members working in harmony
 
-Each team member:
-- Owns feature branches
-- Raises pull requests
-- Reviews code
+- **Sridhar S** - Full Stack Integration & Trip Management
+- **Navbila K** - Frontend Development & UI/UX Design
+- **Subhadevi K** - Backend API & Database Architecture
+- **Raghuram E S** - Authentication & Deployment
+
+---
+
+## 🚧 Future Enhancements
+
+- Public trip sharing with unique links
+- Interactive map visualization
+- Calendar view for itineraries
+- Weather forecast integration
+- Collaborative trip planning
+- Export to PDF/Excel
+- Mobile application
 
 ---
 
@@ -331,15 +332,14 @@ MIT License - Built for Odoo Hackathon 2026
 
 ## 🙏 Acknowledgments
 
-Built with:
-- FastAPI by Sebastián Ramírez
-- Next.js by Vercel
-- Tailwind CSS by Tailwind Labs
-- PostgreSQL by PostgreSQL Global Development Group
+- FastAPI for the amazing Python framework
+- Next.js team for the incredible React framework
+- Tailwind CSS for beautiful, responsive design
+- PostgreSQL for reliable data storage
 
 ---
 
-**Built with ❤️ for the Odoo Hackathon**
+**Built with ❤️ by Team GlobeTrotter**
 
-**Live Demo:** [Coming Soon]
-**Documentation:** See `/backend/README.md` and `/frontend/README.md`
+Repository: https://github.com/Sridhar1233sri/Odoo
+
